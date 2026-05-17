@@ -1,0 +1,523 @@
+{
+  "per_run": [
+    {
+      "f": 0.05,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.0,
+      "final_honest_median_R": 0.7811076367103678
+    },
+    {
+      "f": 0.05,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 51.0,
+      "final_honest_median_R": 0.779841672605563
+    },
+    {
+      "f": 0.05,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7825167028745177
+    },
+    {
+      "f": 0.05,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7843990068780398
+    },
+    {
+      "f": 0.05,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.0,
+      "final_honest_median_R": 0.7813292062281119
+    },
+    {
+      "f": 0.1,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7816004158140595
+    },
+    {
+      "f": 0.1,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 50.0,
+      "final_honest_median_R": 0.7814604081650125
+    },
+    {
+      "f": 0.1,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.5,
+      "final_honest_median_R": 0.783051775985481
+    },
+    {
+      "f": 0.1,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.5,
+      "final_honest_median_R": 0.7813930466529999
+    },
+    {
+      "f": 0.1,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 46.0,
+      "final_honest_median_R": 0.7827215900386442
+    },
+    {
+      "f": 0.15,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7799366656741173
+    },
+    {
+      "f": 0.15,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7808319437584111
+    },
+    {
+      "f": 0.15,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7849913377850202
+    },
+    {
+      "f": 0.15,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7828011775889885
+    },
+    {
+      "f": 0.15,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7829089411792668
+    },
+    {
+      "f": 0.2,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7788104589049571
+    },
+    {
+      "f": 0.2,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7817853812270693
+    },
+    {
+      "f": 0.2,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7867204944700982
+    },
+    {
+      "f": 0.2,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7825612482801632
+    },
+    {
+      "f": 0.2,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.0,
+      "final_honest_median_R": 0.7814604081650125
+    },
+    {
+      "f": 0.25,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7788149114289512
+    },
+    {
+      "f": 0.25,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7803894360747656
+    },
+    {
+      "f": 0.25,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7821321265847094
+    },
+    {
+      "f": 0.25,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7849001816977823
+    },
+    {
+      "f": 0.25,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7830697567966697
+    },
+    {
+      "f": 0.3,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7809803427210041
+    },
+    {
+      "f": 0.3,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7778948839052375
+    },
+    {
+      "f": 0.3,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7814604081650125
+    },
+    {
+      "f": 0.3,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.783051775985481
+    },
+    {
+      "f": 0.3,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.5,
+      "final_honest_median_R": 0.7852324550824986
+    },
+    {
+      "f": 0.33,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.0,
+      "final_honest_median_R": 0.7795222570868846
+    },
+    {
+      "f": 0.33,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.783051775985481
+    },
+    {
+      "f": 0.33,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7821321265847094
+    },
+    {
+      "f": 0.33,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7814773268573858
+    },
+    {
+      "f": 0.33,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7830092151302788
+    },
+    {
+      "f": 0.35,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7813673660806537
+    },
+    {
+      "f": 0.35,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7828479469978497
+    },
+    {
+      "f": 0.35,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7864298589316028
+    },
+    {
+      "f": 0.35,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7796063187960727
+    },
+    {
+      "f": 0.35,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 50.0,
+      "final_honest_median_R": 0.7835274122245466
+    },
+    {
+      "f": 0.4,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.78053597360859
+    },
+    {
+      "f": 0.4,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.78053597360859
+    },
+    {
+      "f": 0.4,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.5,
+      "final_honest_median_R": 0.7809020484885751
+    },
+    {
+      "f": 0.4,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7806839586835006
+    },
+    {
+      "f": 0.4,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.5,
+      "final_honest_median_R": 0.7788193639529453
+    },
+    {
+      "f": 0.45,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.783420902999584
+    },
+    {
+      "f": 0.45,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7803436280247542
+    },
+    {
+      "f": 0.45,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7857531834438715
+    },
+    {
+      "f": 0.45,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7828479469978497
+    },
+    {
+      "f": 0.45,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7808319437584111
+    },
+    {
+      "f": 0.5,
+      "seed": 0,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7824901579729773
+    },
+    {
+      "f": 0.5,
+      "seed": 1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.783243348828813
+    },
+    {
+      "f": 0.5,
+      "seed": 2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7841993293356486
+    },
+    {
+      "f": 0.5,
+      "seed": 3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7752841522959746
+    },
+    {
+      "f": 0.5,
+      "seed": 4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 47.5,
+      "final_honest_median_R": 0.7828479469978497
+    }
+  ],
+  "aggregated": [
+    {
+      "f": 0.05,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.78183884505932
+    },
+    {
+      "f": 0.1,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.5,
+      "final_honest_median_R": 0.7820454473312394
+    },
+    {
+      "f": 0.15,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7822940131971607
+    },
+    {
+      "f": 0.2,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.78226759820946
+    },
+    {
+      "f": 0.25,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7818612825165757
+    },
+    {
+      "f": 0.3,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7817239731718468
+    },
+    {
+      "f": 0.33,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.781838540328948
+    },
+    {
+      "f": 0.35,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 49.0,
+      "final_honest_median_R": 0.7827557806061451
+    },
+    {
+      "f": 0.4,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7802954636684403
+    },
+    {
+      "f": 0.45,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7826395210448941
+    },
+    {
+      "f": 0.5,
+      "detection_rate": 1.0,
+      "fp_rate": 0.0,
+      "median_detection_latency": 48.0,
+      "final_honest_median_R": 0.7816129870862526
+    }
+  ]
+}

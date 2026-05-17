@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /home/nous/research/audit-harness/inputs/papers/BFT_UAV_Swarm_Paper_v9_8/code/byzantine_scaling && python3 -c \\\"\\nimport json\\nwith open('results/results.json') as f:\\n    rows = json.l...",
+  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"<string>\", line 6, in <module>\nKeyError: 0\nTotal rows: 2",
+  "timestamp": "2026-05-17T22:18:15.301Z",
+  "retry_count": 1
+}
