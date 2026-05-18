@@ -1,17 +1,18 @@
 """Trajectory-tracking simulator for the clamped aggregate reputation
 convergence experiment.
 
-Reuses the multiplicative reputation update from the asymmetric_decay
-simulator but tracks the FULL trajectory R_j(t) (rather than only the
-first isolation crossing) so that convergence rate, monotonicity, and
-inter-observer variance can be measured.
+Uses the paper's additive update rule (Eqs. 1-3, §IV-C) and tracks the
+FULL trajectory R_j(t) (rather than only the first isolation crossing)
+so that convergence rate, monotonicity, and inter-observer variance can
+be measured. The empirical convergence time is compared against the
+linear-drain analytical bound of Proposition 3:
+    T_theory(eps) = (R_init - eps) / (alpha_neg * R_k * f_obs)
 
 Pure numpy.
 """
 
 from __future__ import annotations
 
-import math
 from dataclasses import dataclass, field
 
 import numpy as np
@@ -26,6 +27,7 @@ class Swarm:
     initial_r: float = 0.5
     p_obs_error: float = 0.05
     seed: int = 0
+    r_k_verifier: float = 1.0   # honest verifier reputation weight (non-gossip)
 
     is_byzantine: np.ndarray = field(init=False)
     reputation: np.ndarray = field(init=False)
@@ -53,9 +55,13 @@ class Swarm:
                 truth_byz = bool(self.is_byzantine[j])
                 obs_byz = truth_byz != (rng.random() < self.p_obs_error)
                 if obs_byz:
-                    self.reputation[i, j] *= 1.0 - self.alpha_neg
+                    self.reputation[i, j] = max(
+                        0.0, self.reputation[i, j] - self.alpha_neg * self.r_k_verifier
+                    )
                 else:
-                    self.reputation[i, j] += self.alpha_pos * (1.0 - self.reputation[i, j])
+                    self.reputation[i, j] = min(
+                        1.0, self.reputation[i, j] + self.alpha_pos * self.r_k_verifier
+                    )
 
 
 def simulate_trajectories(
@@ -140,16 +146,19 @@ def measure_cell(
     # ratio when the sentinel just happens to be close to T_theory.
     is_converged = {eps: median_T_eps[eps] < n_rounds for eps in eps_grid}
 
-    # Theory: T ≈ log(R_init / eps) / (-log(1 - alpha_neg)) / f_obs
+    # Theory: linear-drain bound from Proposition 3 (additive rule)
+    #   T_theory(eps) = (R_init - eps) / (alpha_neg * R_k * f_obs)
+    # R_k = 1.0 in this simulator (non-gossip self-confidence).
     # Reported only for cells where the simulation actually converged;
     # NaN otherwise so downstream filtering is straightforward.
+    r_k = 1.0
     f_obs = max(5, n // 10) / n
     theory_ratio = {}
     for eps in eps_grid:
-        if not is_converged[eps] or not (0 < alpha_neg < 1):
+        if not is_converged[eps] or alpha_neg <= 0:
             theory_ratio[eps] = float("nan")
             continue
-        T_theory = math.log(0.5 / eps) / (-math.log(1 - alpha_neg)) / f_obs
+        T_theory = (0.5 - eps) / (alpha_neg * r_k * f_obs)
         theory_ratio[eps] = (
             median_T_eps[eps] / T_theory if T_theory > 0 else float("nan")
         )

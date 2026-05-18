@@ -1,10 +1,12 @@
 """Simulator for the Byzantine-fraction resilience-scaling experiment.
 
-Uses the asymmetric reputation-decay isolation mechanism (alpha_neg = 4 * alpha_pos
-with alpha_pos = 0.05 — the saturation-point schedule identified in the
-asymmetric_decay experiment) and measures detection rate, false-positive
-rate, latency, and final honest-sub-swarm reputation health as the
-Byzantine fraction f varies across the theoretical 1/3 boundary.
+Uses the paper's additive reputation update rule (Eqs. 1-3, §IV-C)
+with alpha_neg = 4 * alpha_pos and alpha_pos = 0.05 (the saturation-point
+schedule identified in the asymmetric_decay experiment) and measures
+detection rate, false-positive rate, latency, and final honest-sub-swarm
+reputation health as the Byzantine fraction f varies across the
+theoretical 1/3 boundary. Verifier reputation weight R_k = 1.0
+(non-gossip self-confidence).
 
 Pure numpy.
 """
@@ -31,7 +33,7 @@ def simulate(
     n: int, f_byzantine: float,
     alpha_pos: float = 0.05, alpha_neg: float = 0.20,
     isolation_threshold: float = 0.20, p_obs_error: float = 0.05,
-    n_rounds: int = 300, seed: int = 0,
+    n_rounds: int = 300, seed: int = 0, r_k_verifier: float = 1.0,
 ) -> RunResult:
     rng_init = np.random.default_rng(seed)
     n_byz = max(1, int(round(n * f_byzantine)))
@@ -59,9 +61,9 @@ def simulate(
                 truth_byz = bool(is_byzantine[j])
                 obs_byz = truth_byz != (rng.random() < p_obs_error)
                 if obs_byz:
-                    R[i, j] *= 1.0 - alpha_neg
+                    R[i, j] = max(0.0, R[i, j] - alpha_neg * r_k_verifier)
                 else:
-                    R[i, j] += alpha_pos * (1.0 - R[i, j])
+                    R[i, j] = min(1.0, R[i, j] + alpha_pos * r_k_verifier)
 
         for j in range(n):
             if is_byzantine[j] and isolated_byz[j] >= 0:

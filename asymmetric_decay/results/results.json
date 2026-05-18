@@ -9,7 +9,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 206.33333333333334
+    "median_detection_latency": 68.33333333333333
   },
   {
     "n": 50,
@@ -21,7 +21,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 99.33333333333333
+    "median_detection_latency": 37.666666666666664
   },
   {
     "n": 50,
@@ -33,7 +33,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 94.0
+    "median_detection_latency": 35.666666666666664
   },
   {
     "n": 50,
@@ -45,7 +45,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 58.666666666666664
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 50,
@@ -57,7 +57,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 46.333333333333336
+    "median_detection_latency": 16.333333333333332
   },
   {
     "n": 50,
@@ -69,7 +69,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 45.666666666666664
+    "median_detection_latency": 16.333333333333332
   },
   {
     "n": 50,
@@ -81,7 +81,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 209.0
+    "median_detection_latency": 70.66666666666667
   },
   {
     "n": 50,
@@ -93,7 +93,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 100.33333333333333
+    "median_detection_latency": 38.666666666666664
   },
   {
     "n": 50,
@@ -105,7 +105,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 95.5
+    "median_detection_latency": 36.333333333333336
   },
   {
     "n": 50,
@@ -117,7 +117,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 60.833333333333336
+    "median_detection_latency": 17.333333333333332
   },
   {
     "n": 50,
@@ -129,7 +129,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 16.5
   },
   {
     "n": 50,
@@ -141,7 +141,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 16.5
   },
   {
     "n": 50,
@@ -153,7 +153,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 208.0
+    "median_detection_latency": 70.0
   },
   {
     "n": 50,
@@ -165,7 +165,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 101.66666666666667
+    "median_detection_latency": 37.166666666666664
   },
   {
     "n": 50,
@@ -177,7 +177,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 96.0
+    "median_detection_latency": 35.5
   },
   {
     "n": 50,
@@ -189,7 +189,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 60.5
+    "median_detection_latency": 16.833333333333332
   },
   {
     "n": 50,
@@ -201,7 +201,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 47.0
+    "median_detection_latency": 16.0
   },
   {
     "n": 50,
@@ -213,7 +213,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 46.333333333333336
+    "median_detection_latency": 16.0
   },
   {
     "n": 100,
@@ -225,7 +225,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 211.33333333333334
+    "median_detection_latency": 72.83333333333333
   },
   {
     "n": 100,
@@ -237,7 +237,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 102.0
+    "median_detection_latency": 40.5
   },
   {
     "n": 100,
@@ -249,7 +249,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 97.83333333333333
+    "median_detection_latency": 38.666666666666664
   },
   {
     "n": 100,
@@ -261,7 +261,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 61.666666666666664
+    "median_detection_latency": 18.333333333333332
   },
   {
     "n": 100,
@@ -273,7 +273,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 49.5
+    "median_detection_latency": 17.333333333333332
   },
   {
     "n": 100,
@@ -285,7 +285,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.333333333333336
+    "median_detection_latency": 17.333333333333332
   },
   {
     "n": 100,
@@ -297,7 +297,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 211.0
+    "median_detection_latency": 72.0
   },
   {
     "n": 100,
@@ -309,7 +309,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 99.66666666666667
+    "median_detection_latency": 39.666666666666664
   },
   {
     "n": 100,
@@ -321,7 +321,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 95.33333333333333
+    "median_detection_latency": 37.5
   },
   {
     "n": 100,
@@ -333,7 +333,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 61.0
+    "median_detection_latency": 18.0
   },
   {
     "n": 100,
@@ -345,7 +345,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.666666666666664
+    "median_detection_latency": 17.166666666666668
   },
   {
     "n": 100,
@@ -357,7 +357,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 47.833333333333336
+    "median_detection_latency": 17.166666666666668
   },
   {
     "n": 100,
@@ -369,7 +369,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 209.66666666666666
+    "median_detection_latency": 73.0
   },
   {
     "n": 100,
@@ -381,7 +381,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 100.33333333333333
+    "median_detection_latency": 39.333333333333336
   },
   {
     "n": 100,
@@ -393,7 +393,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 95.0
+    "median_detection_latency": 37.666666666666664
   },
   {
     "n": 100,
@@ -405,7 +405,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 61.0
+    "median_detection_latency": 17.333333333333332
   },
   {
     "n": 100,
@@ -417,7 +417,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.333333333333336
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 100,
@@ -429,7 +429,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 200,
@@ -441,7 +441,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 212.83333333333334
+    "median_detection_latency": 72.5
   },
   {
     "n": 200,
@@ -453,7 +453,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 100.33333333333333
+    "median_detection_latency": 39.333333333333336
   },
   {
     "n": 200,
@@ -465,7 +465,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 95.83333333333333
+    "median_detection_latency": 37.666666666666664
   },
   {
     "n": 200,
@@ -477,7 +477,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 60.833333333333336
+    "median_detection_latency": 17.333333333333332
   },
   {
     "n": 200,
@@ -489,7 +489,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.166666666666664
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 200,
@@ -501,7 +501,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 200,
@@ -513,7 +513,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 210.5
+    "median_detection_latency": 72.33333333333333
   },
   {
     "n": 200,
@@ -525,7 +525,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 101.5
+    "median_detection_latency": 39.333333333333336
   },
   {
     "n": 200,
@@ -537,7 +537,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 96.83333333333333
+    "median_detection_latency": 37.833333333333336
   },
   {
     "n": 200,
@@ -549,7 +549,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 61.666666666666664
+    "median_detection_latency": 18.0
   },
   {
     "n": 200,
@@ -561,7 +561,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.833333333333336
+    "median_detection_latency": 17.0
   },
   {
     "n": 200,
@@ -573,7 +573,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 17.0
   },
   {
     "n": 200,
@@ -585,7 +585,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 210.5
+    "median_detection_latency": 72.16666666666667
   },
   {
     "n": 200,
@@ -597,7 +597,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 102.0
+    "median_detection_latency": 39.333333333333336
   },
   {
     "n": 200,
@@ -609,7 +609,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 96.33333333333333
+    "median_detection_latency": 37.666666666666664
   },
   {
     "n": 200,
@@ -621,7 +621,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 60.666666666666664
+    "median_detection_latency": 17.833333333333332
   },
   {
     "n": 200,
@@ -633,7 +633,7 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.333333333333336
+    "median_detection_latency": 16.666666666666668
   },
   {
     "n": 200,
@@ -645,6 +645,6 @@
     "detection_rate": 1.0,
     "fp_rate": 0.0,
     "fn_rate": 0.0,
-    "median_detection_latency": 48.0
+    "median_detection_latency": 16.666666666666668
   }
 ]

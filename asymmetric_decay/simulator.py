@@ -1,9 +1,14 @@
 """Discrete-time UAV-swarm consensus simulator with reputation tracking.
 
-Pure numpy implementation of the asymmetric multiplicative reputation
-update rule:
-    honest event:    R_ij ← R_ij + alpha_pos · (1 - R_ij)      (convex pull toward 1)
-    byzantine event: R_ij ← R_ij · (1 - alpha_neg)              (multiplicative shrink toward 0)
+Pure numpy implementation of the asymmetric additive reputation
+update rule (matches the paper's Eqs. 1-3, §IV-C):
+    VERIFIED:    R_ij ← clamp(R_ij + alpha_pos · R_k, 0, 1)
+    UNVERIFIED:  R_ij ← clamp(R_ij - alpha_neg · R_k, 0, 1)
+where R_k is the verifier's reputation weight; in this simulator all
+observers are honest and operate in non-gossip mode with self-confidence
+R_k = 1.0 (the deployed case). The analytical bound of Proposition 3
+uses R_bar_honest = 0.53 as a conservative lower estimate, so empirical
+latency under R_k=1.0 should beat the analytical prediction.
 
 A UAV j is considered isolated when the median of {R_ij} across
 honest observers i (excluding j itself) drops below the isolation
@@ -44,6 +49,8 @@ class Swarm:
     p_obs_error: float = 0.05               # observer noise
     seed: int = 0
 
+    r_k_verifier: float = 1.0               # honest verifier reputation weight (non-gossip)
+
     is_byzantine: np.ndarray = field(init=False)
     reputation: np.ndarray = field(init=False)
 
@@ -78,9 +85,13 @@ class Swarm:
                 # Observer noise: flip event with probability p_obs_error
                 observed_byzantine = true_event_byzantine != (rng.random() < self.p_obs_error)
                 if observed_byzantine:
-                    self.reputation[i, j] *= 1.0 - self.alpha_neg
+                    self.reputation[i, j] = max(
+                        0.0, self.reputation[i, j] - self.alpha_neg * self.r_k_verifier
+                    )
                 else:
-                    self.reputation[i, j] += self.alpha_pos * (1.0 - self.reputation[i, j])
+                    self.reputation[i, j] = min(
+                        1.0, self.reputation[i, j] + self.alpha_pos * self.r_k_verifier
+                    )
 
     def swarm_belief(self, j: int) -> float:
         """Median R_j across honest observers (excluding j itself)."""
