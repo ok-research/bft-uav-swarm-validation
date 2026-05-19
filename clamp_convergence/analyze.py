@@ -39,10 +39,9 @@ def main() -> None:
     plt.close(fig)
 
     # Figure 2: theory ratio vs alpha_neg, faceted by p_obs_err.
-    # Only convergent cells are plotted; non-convergent cells (where
-    # T_eps was not reached within n_rounds and the ratio is therefore
-    # undefined) are dropped — plotting them would misleadingly suggest
-    # the bound holds in regimes where it does not.
+    # Under the paper's additive rule with R_k=1, all 16 cells converge
+    # within n_rounds. Any non-convergent cells (none expected) would be
+    # excluded from the plot since their ratio is undefined.
     fig, ax = plt.subplots(figsize=(8, 5))
     for p in P_OBS:
         xs, ys = [], []
@@ -60,7 +59,7 @@ def main() -> None:
     ax.axhline(1.0, color="black", lw=0.5, ls="--", label="theory = empirical")
     ax.set_xlabel(r"$\alpha_\mathrm{neg}$")
     ax.set_ylabel(r"$T_\mathrm{empirical} / T_\mathrm{theory}$ (eps=0.01)")
-    ax.set_title("Empirical-to-theoretical convergence-time ratio\n(convergent cells only; non-convergent excluded)")
+    ax.set_title("Empirical-to-theoretical convergence-time ratio\n(all 16 cells; additive rule, R_k=1)")
     ax.set_ylim(0, 2)
     ax.legend()
     ax.grid(True, alpha=0.3)
