@@ -24,7 +24,7 @@ N_UAVS = 100
 ALPHA_POS = 0.05
 ALPHA_NEG = 0.20    # r = 4
 F_GRID = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.33, 0.35, 0.40, 0.45, 0.50]
-SEEDS = [0, 1, 2, 3, 4]
+SEEDS = list(range(25))
 
 
 def main() -> None:

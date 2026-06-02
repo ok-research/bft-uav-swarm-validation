@@ -3,65 +3,65 @@
     "alpha_pos": 0.05,
     "alpha_neg": 0.05,
     "p_obs_err": 0.0,
-    "median_T_eps_005": 94.5,
+    "median_T_eps_005": 95.0,
     "median_T_eps_001": 95.5,
     "median_T_eps_0001": 95.5,
-    "theory_ratio_005": 1.0500000000000003,
+    "theory_ratio_005": 1.0555555555555558,
     "theory_ratio_001": 0.9744897959183675,
     "theory_ratio_0001": 0.9569138276553107,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
     "monotonicity_violations": 0.0,
-    "R_j_variance_at_end": 0.0
+    "R_j_variance_at_end": 9.257812500000013e-07
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.05,
     "p_obs_err": 0.05,
-    "median_T_eps_005": 105.0,
-    "median_T_eps_001": 106.0,
-    "median_T_eps_0001": 106.0,
-    "theory_ratio_005": 1.1666666666666667,
-    "theory_ratio_001": 1.0816326530612246,
-    "theory_ratio_0001": 1.0621242484969942,
+    "median_T_eps_005": 106.0,
+    "median_T_eps_001": 106.5,
+    "median_T_eps_0001": 106.5,
+    "theory_ratio_005": 1.177777777777778,
+    "theory_ratio_001": 1.0867346938775513,
+    "theory_ratio_0001": 1.0671342685370744,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.4333333333333333,
-    "R_j_variance_at_end": 0.00015434895833333335
+    "monotonicity_violations": 0.38,
+    "R_j_variance_at_end": 0.00016241328125000002
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.05,
     "p_obs_err": 0.1,
-    "median_T_eps_005": 122.0,
-    "median_T_eps_001": 125.0,
-    "median_T_eps_0001": 125.0,
-    "theory_ratio_005": 1.3555555555555558,
-    "theory_ratio_001": 1.2755102040816328,
-    "theory_ratio_0001": 1.2525050100200403,
+    "median_T_eps_005": 120.5,
+    "median_T_eps_001": 122.5,
+    "median_T_eps_0001": 122.5,
+    "theory_ratio_005": 1.338888888888889,
+    "theory_ratio_001": 1.2500000000000002,
+    "theory_ratio_0001": 1.2274549098196395,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.9333333333333332,
-    "R_j_variance_at_end": 0.0005217773437500001
+    "monotonicity_violations": 0.9540000000000001,
+    "R_j_variance_at_end": 0.0005082453125000001
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.05,
     "p_obs_err": 0.2,
-    "median_T_eps_005": 174.5,
-    "median_T_eps_001": 176.0,
-    "median_T_eps_0001": 176.0,
-    "theory_ratio_005": 1.938888888888889,
-    "theory_ratio_001": 1.795918367346939,
-    "theory_ratio_0001": 1.7635270541082166,
+    "median_T_eps_005": 169.5,
+    "median_T_eps_001": 173.0,
+    "median_T_eps_0001": 173.0,
+    "theory_ratio_005": 1.8833333333333335,
+    "theory_ratio_001": 1.7653061224489799,
+    "theory_ratio_0001": 1.7334669338677358,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 5.05,
-    "R_j_variance_at_end": 0.004083736979166668
+    "monotonicity_violations": 4.416,
+    "R_j_variance_at_end": 0.0038695914062500014
   },
   {
     "alpha_pos": 0.05,
@@ -92,40 +92,40 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.16666666666666666,
-    "R_j_variance_at_end": 0.00013431640625
+    "monotonicity_violations": 0.12200000000000001,
+    "R_j_variance_at_end": 0.00014048203125
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.1,
     "p_obs_err": 0.1,
-    "median_T_eps_005": 54.5,
+    "median_T_eps_005": 55.0,
     "median_T_eps_001": 57.5,
     "median_T_eps_0001": 57.5,
-    "theory_ratio_005": 1.2111111111111112,
+    "theory_ratio_005": 1.2222222222222223,
     "theory_ratio_001": 1.1734693877551021,
     "theory_ratio_0001": 1.152304609218437,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.4666666666666666,
-    "R_j_variance_at_end": 0.00031869791666666673
+    "monotonicity_violations": 0.384,
+    "R_j_variance_at_end": 0.00031980312500000006
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.1,
     "p_obs_err": 0.2,
-    "median_T_eps_005": 69.0,
-    "median_T_eps_001": 73.5,
-    "median_T_eps_0001": 73.5,
-    "theory_ratio_005": 1.5333333333333337,
-    "theory_ratio_001": 1.5000000000000002,
-    "theory_ratio_0001": 1.4729458917835674,
+    "median_T_eps_005": 71.0,
+    "median_T_eps_001": 74.5,
+    "median_T_eps_0001": 74.5,
+    "theory_ratio_005": 1.577777777777778,
+    "theory_ratio_001": 1.5204081632653064,
+    "theory_ratio_0001": 1.492985971943888,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 1.2333333333333334,
-    "R_j_variance_at_end": 0.0008626627604166669
+    "monotonicity_violations": 1.4380000000000002,
+    "R_j_variance_at_end": 0.0008346992187500002
   },
   {
     "alpha_pos": 0.05,
@@ -156,8 +156,8 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.03333333333333333,
-    "R_j_variance_at_end": 0.00013431640625
+    "monotonicity_violations": 0.044000000000000004,
+    "R_j_variance_at_end": 0.000140321875
   },
   {
     "alpha_pos": 0.05,
@@ -172,35 +172,35 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.10000000000000002,
-    "R_j_variance_at_end": 0.00031572265625000003
+    "monotonicity_violations": 0.13399999999999998,
+    "R_j_variance_at_end": 0.00031612109375000005
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.2,
     "p_obs_err": 0.2,
     "median_T_eps_005": 36.0,
-    "median_T_eps_001": 37.5,
-    "median_T_eps_0001": 37.5,
+    "median_T_eps_001": 37.0,
+    "median_T_eps_0001": 37.0,
     "theory_ratio_005": 1.6000000000000003,
-    "theory_ratio_001": 1.5306122448979593,
-    "theory_ratio_0001": 1.5030060120240483,
+    "theory_ratio_001": 1.5102040816326532,
+    "theory_ratio_0001": 1.4829659318637276,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.4166666666666667,
-    "R_j_variance_at_end": 0.0007798958333333334
+    "monotonicity_violations": 0.46199999999999997,
+    "R_j_variance_at_end": 0.0007778039062500002
   },
   {
     "alpha_pos": 0.05,
     "alpha_neg": 0.4,
     "p_obs_err": 0.0,
     "median_T_eps_005": 16.0,
-    "median_T_eps_001": 16.5,
-    "median_T_eps_0001": 16.5,
+    "median_T_eps_001": 16.0,
+    "median_T_eps_0001": 16.0,
     "theory_ratio_005": 1.4222222222222225,
-    "theory_ratio_001": 1.3469387755102042,
-    "theory_ratio_0001": 1.3226452905811625,
+    "theory_ratio_001": 1.306122448979592,
+    "theory_ratio_0001": 1.2825651302605212,
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
@@ -220,8 +220,8 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.0,
-    "R_j_variance_at_end": 0.00013431640625
+    "monotonicity_violations": 0.01,
+    "R_j_variance_at_end": 0.000140321875
   },
   {
     "alpha_pos": 0.05,
@@ -236,8 +236,8 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.05000000000000001,
-    "R_j_variance_at_end": 0.00031572265625000003
+    "monotonicity_violations": 0.05800000000000001,
+    "R_j_variance_at_end": 0.00031606875000000006
   },
   {
     "alpha_pos": 0.05,
@@ -252,7 +252,7 @@
     "is_converged_005": true,
     "is_converged_001": true,
     "is_converged_0001": true,
-    "monotonicity_violations": 0.2333333333333333,
-    "R_j_variance_at_end": 0.0007781575520833334
+    "monotonicity_violations": 0.25799999999999995,
+    "R_j_variance_at_end": 0.0007762437500000004
   }
 ]

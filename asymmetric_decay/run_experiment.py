@@ -36,7 +36,7 @@ N_ROUNDS = 300
 
 SWARM_SIZES = [50, 100, 200]
 BYZANTINE_FRACTIONS = [0.10, 0.20, 0.33]
-SEEDS = [0, 1, 2]
+SEEDS = list(range(25))
 
 # (label, alpha_pos, alpha_neg) — six schedules covering r ∈ {1, 2, 3, 4, 8}
 SCHEDULES = [

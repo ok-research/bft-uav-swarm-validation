@@ -26,7 +26,7 @@ ALPHA_POS = 0.05
 ALPHA_NEG_GRID = [0.05, 0.10, 0.20, 0.40]
 P_OBS_ERR_GRID = [0.00, 0.05, 0.10, 0.20]
 EPS_GRID = [0.05, 0.01, 0.001]
-SEEDS = [0, 1, 2]
+SEEDS = list(range(25))
 
 
 def main() -> None:
